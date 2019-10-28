@@ -34,11 +34,11 @@ const useStyles = makeStyles(theme => ({
     textAlign: "justify"
   },
   pt15: {
-      paddingTop: '15px',
+    paddingTop: "15px"
   },
   mb20: {
-      marginBottom: '20px',
-  },
+    marginBottom: "20px"
+  }
 }));
 
 const About = () => {
@@ -54,25 +54,16 @@ const About = () => {
               <Typography variant="h5" gutterBottom className={classes.title}>
                 Profile Statements
               </Typography>
-              <Typography variant="body1" component='p' gutterBottom className={classes.text}>
-                Lorem ipsum dolor sit amet, dolorum persequeris te vis, mel
-                errem libris diceret ex. Reque eleifend contentiones mei ex.
-                Dicit nihil per ne, ea pri erat zril aperiam. At etiam
-                forensibus appellantur pri, ad vix aperiri atomorum, equidem
-                imperdiet in eos. Lorem ipsum sit. Mutat voluptatum
-                concludaturque has ea, ex elit veri essent nec. Nam ea delectus
-                gloriatur, eam vocent senserit indoctum ea. Hinc nullam
-                percipitur et vel. Reque timeam ad has. Eam no quidam
-                eloquentiam, cu neglegentur philosophia mea, solum iisque
-                fuisset per an. Mel case consulatu ut. Mentitum senserit
-                suscipiantur id pri. Per id altera oporteat vituperata, duo ea
-                fugit maiestatis. Duo everti integre te, quot everti in per. In
-                prompta imperdiet vim, et eos tale primis. Duo sint adipisci eu.
-                Quo et voluptaria deterruisset, nulla option platonem sit cu. In
-                sea solet congue minimum, vis tale virtute persequeris et. Cu
-                labores percipit senserit cum, nec ex rebum nullam. Ut usu quod
-                alii scaevola, pri te antiopam salutatus scribentur, quo falli
-                apeirian ea. Possim recusabo id vim.
+              <Typography
+                variant="body1"
+                component="p"
+                gutterBottom
+                className={classes.text}
+              >
+                Amplia experiencia en manejo de personal. Manejo y creacion de
+                Macro de Excel. Análisis y desarrollo de aplicaciones web
+                (énfasis en frameworks como Laravel y ReactJS, bases de datos
+                MySQL y MongoDB). Gestión y administración de almacenes.
               </Typography>
             </Grid>
             <Grid item xs={12} className={classes.mb20}>

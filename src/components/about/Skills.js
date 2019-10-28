@@ -52,61 +52,61 @@ export default function Profile() {
   return (
     <React.Fragment className={classes.root}>
       <Grid container spacing={8} className={classes.margin}>
-        <Grid item xs={12} md>
+        <Grid item xs={6} md>
           <Typography variant="h5" gutterBottom className={classes.title}>
             PHP
           </Typography>
           {returnKnowles(60)}
         </Grid>
-        <Grid item xs={12} md>
+        <Grid item xs={6} md>
           <Typography variant="h5" gutterBottom className={classes.title}>
             HTML5
           </Typography>
           {returnKnowles(70)}
         </Grid>
-        <Grid item xs={12} md>
+        <Grid item xs={6} md>
           <Typography variant="h5" gutterBottom className={classes.title}>
             CSS3
           </Typography>
           {returnKnowles(50)}
         </Grid>
-        <Grid item xs={12} md>
+        <Grid item xs={6} md>
           <Typography variant="h5" gutterBottom className={classes.title}>
             JavaScript
           </Typography>
           {returnKnowles(40)}
         </Grid>
-        <Grid item xs={12} md>
+        <Grid item xs={6} md>
           <Typography variant="h5" gutterBottom className={classes.title}>
             MySQL
           </Typography>
           {returnKnowles(50)}
         </Grid>
-        <Grid item xs={12} md>
+        <Grid item xs={6} md>
           <Typography variant="h5" gutterBottom className={classes.title}>
             MongoDB
           </Typography>
           {returnKnowles(15)}
         </Grid>
-        <Grid item xs={12} md>
+        <Grid item xs={6} md>
           <Typography variant="h5" gutterBottom className={classes.title}>
             Laravel
           </Typography>
           {returnKnowles(60)}
         </Grid>
-        <Grid item xs={12} md>
+        <Grid item xs={6} md>
           <Typography variant="h5" gutterBottom className={classes.title}>
             NodeJS
           </Typography>
           {returnKnowles(20)}
         </Grid>
-        <Grid item xs={12} md>
+        <Grid item xs={6} md>
           <Typography variant="h5" gutterBottom className={classes.title}>
             ReactJS
           </Typography>
           {returnKnowles(35)}
         </Grid>
-        <Grid item xs={12} md>
+        <Grid item xs={6} md>
           <Typography variant="h5" gutterBottom className={classes.title}>
             Redux
           </Typography>
