@@ -18,7 +18,8 @@ const useStyles = makeStyles(theme => ({
     fontWeight: 500,
     fontSize: "12px",
     lineHeight: "14px",
-    color: "#000"
+    color: "#000",
+    textAlign: "center"
   },
   roundedCard: {
     width: "80px",
