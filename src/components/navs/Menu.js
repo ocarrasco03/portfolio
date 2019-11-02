@@ -13,9 +13,9 @@ const useStyles = makeStyles(theme => ({
     }
   },
   navbar: {
-      color: '#fff',
+    color: "#fff",
     //   backgroundColor: "#FF3411",
-      left: '40px',
+    left: "40px"
   }
 }));
 export default function Navigation() {
@@ -29,7 +29,18 @@ export default function Navigation() {
       <Fab className={classes.root} onClick={handleClick} aria-haspopup={true}>
         <MenuIcon />
       </Fab>
-      <Menu
+      <div
+        id="nav-bar"
+        className={classes.navbar}
+      >
+          <MenuItem>Main</MenuItem>
+        <MenuItem>About</MenuItem>
+        <MenuItem>Experience</MenuItem>
+        <MenuItem>Portfolio</MenuItem>
+        <MenuItem>References</MenuItem>
+        <MenuItem>Contact</MenuItem>
+      </div>
+      {/* <Menu
         id="nav-bar"
         anchorEl={anchorEl}
         keepMounted
@@ -43,7 +54,7 @@ export default function Navigation() {
         <MenuItem>Portfolio</MenuItem>
         <MenuItem>References</MenuItem>
         <MenuItem>Contact</MenuItem>
-      </Menu>
+      </Menu> */}
     </React.Fragment>
   );
 }
